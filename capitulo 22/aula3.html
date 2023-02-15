@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação com iFrames</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        iframe{
+            width: 97vw;
+            height: 300px;
+            border: 2px solid black;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegção com iFrames</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure excepturi quidem libero saepe tempora sunt delectus veniam quam maxime modi? Autem nam inventore et ipsa accusantium veniam aliquam! Pariatur, necessitatibus?
+    Magnam eos debitis esse, mollitia nihil, nulla saepe sit incidunt aspernatur fuga veniam molestias, aut laudantium! Quisquam consectetur magnam, laudantium, vel tempore officia molestiae pariatur, suscipit magni cum fugit animi?
+    Voluptatum architecto est explicabo omnis aliquid repudiandae error quos dolore molestiae autem nulla enim officiis obcaecati provident ipsum, ad, sit aspernatur quae consequatur veritatis eos consectetur! Inventore animi quasi quis!</p>
+
+        <ul>
+            <li> <a target="nome" href="pasta/target1.html">Site 1</a></li>
+            <li> <a target="nome" href="pasta/target2.html">Site 2</a></li>
+            <li> <a target="nome" href="pasta/target3.html">Site 3</a></li>
+        </ul>
+    
+<iframe src="pasta/target0.html" name="nome" frameborder="1"></iframe>
+<!-- SRCDOC é um parametro onde o source é um conteudo que pode ser html,pórem ela não tem assist de complete -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure excepturi quidem libero saepe tempora sunt delectus veniam quam maxime modi? Autem nam inventore et ipsa accusantium veniam aliquam! Pariatur, necessitatibus?
+        Magnam eos debitis esse, mollitia nihil, nulla saepe sit incidunt aspernatur fuga veniam molestias, aut laudantium! Quisquam consectetur magnam, laudantium, vel tempore officia molestiae pariatur, suscipit magni cum fugit animi?
+        Voluptatum architecto est explicabo omnis aliquid repudiandae error quos dolore molestiae autem nulla enim officiis obcaecati provident ipsum, ad, sit aspernatur quae consequatur veritatis eos consectetur! Inventore animi quasi quis!</p>
+</body>
+</html>
