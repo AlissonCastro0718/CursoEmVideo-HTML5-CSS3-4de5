@@ -10,6 +10,19 @@ body,html{
 background-color: #B4ADEA;
 
 }
+#menu{
+background-color: #b3b3b3;
+display: block;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+}
+
+#menu:hover{
+background-color:black ;
+color:#ffffff ;
+}
+
 
 header{
     background: #B4ADEA;
@@ -21,8 +34,7 @@ header h1 {
 }
 
 menu{
-    display: block;
-
+display:none;
 }
 
 menu > ul{
@@ -33,15 +45,15 @@ menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background: #59FFa0;
-    color:#FDFFF7 ;
+    background: #ffffff;
+    color:#000000 ;
     text-align: center;
     border-top: 2px solid #B4ADEA;
 }
 menu a:hover{
-    background: #c38fff;
+    background: #b3b3b3;
     border: 1px solid #000000;
-    border-radius: 10px;
+ 
 }
 
 main{
