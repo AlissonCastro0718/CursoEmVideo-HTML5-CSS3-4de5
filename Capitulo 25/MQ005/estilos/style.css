@@ -1,7 +1,66 @@
 @charset "UTF-8";
 
-
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body,html{
 background-color: #B4ADEA;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header{
+    background: #B4ADEA;
+}
+
+header h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+menu{
+    display: block;
+
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #59FFa0;
+    color:#FDFFF7 ;
+    text-align: center;
+    border-top: 2px solid #B4ADEA;
+}
+menu a:hover{
+    background: #c38fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+main{
+
+width:90vw;
+background-color: #FDFFF7;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+
 }
