@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 
+DEVICE BRAKPOINTS
+Tels pequena: < 640px
+Cell:   640px a 769px
+Tablet: 770px a 989px
+Notebook:990 a 1199px
+Tela pequena:> 1200px
+*/
+
+@media screen and (min-width:770px) {
+#menu{
+    display:none
+}
+menu{
+    display: block;
+}
+menu li{
+    display: inline-block;
+}
+main{
+    width: 770px;
+}
+}
